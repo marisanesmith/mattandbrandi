@@ -1,11 +1,55 @@
 /* 
 Colors: 
 
-Font: 
+Font: Didot
 */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Heading Classes */
+
+.heading {
+    font-family: 'Didot';
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sub-heading {
+    font-family: 'Didot';
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-light {
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+/* Images */
+
+.bg-image {
+    background-size: cover;
+    /* background-position: center; */
+    /* min-height: 10rem; */
+}
+
+.bg-standing {
+    background-image: url('./images/mattBrandiStanding.jpg');
+    background-position: 50% 20%;
 }
